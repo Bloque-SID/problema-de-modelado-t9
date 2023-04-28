@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1393E08A-4FB8-8EAB-5D4F-9B0EE151ACE2" name="Especie">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>D5DC6954-59B4-AC9C-8EAF-3D84F89C6122</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_especie" id="CA3C90BF-1D37-1469-D77B-2EEF6C22F6C7">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>B51E0C62-DB0A-BE0B-E27C-9AE64E4FE78F</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D74D347F-54F9-68DE-682C-0B082B175E00">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>0E959662-A841-AC44-4155-E78117F99F69</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2AFF21F-0E2A-2F8D-797B-BAD6D00FB0BA" name="Especie_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>51333276-0810-AC3E-6D19-17FB11795B8D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA3C90BF-1D37-1469-D77B-2EEF6C22F6C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

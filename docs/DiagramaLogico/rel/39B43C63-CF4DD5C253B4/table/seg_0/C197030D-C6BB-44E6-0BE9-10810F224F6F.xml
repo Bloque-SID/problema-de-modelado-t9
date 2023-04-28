@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C197030D-C6BB-44E6-0BE9-10810F224F6F" name="Raza">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>1C8B3A35-F2CB-A67D-5AB1-FF160C05B43F</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="BD6AB701-6DF9-9FBA-0FCF-7420C11FC64C">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>E6C3C1E8-0E84-0F1E-65D6-D6EB67EBADFA</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especie_id_especie" id="A7D2DA14-C250-7310-94C1-F57959478508">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>FA92EF57-B5B7-C14C-421F-D40A5470C6ED</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76EFF6D6-0DE7-505B-6E68-2A89415C3BCB" referredColumn="CA3C90BF-1D37-1469-D77B-2EEF6C22F6C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF1D88F6-FAB2-4488-2124-2567D5B677CE" name="Raza_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A7D2DA14-C250-7310-94C1-F57959478508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C692845-A966-F2DF-99EC-0E2026631FAC" name="Raza_id_especie_UN">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>4D7B6DE4-7A88-34C4-6700-23D87540D338</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7D2DA14-C250-7310-94C1-F57959478508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B68FF344-3ACF-2717-A03B-06591153C524" name="Raza_Especie_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>DCA8DB21-E382-1D1A-1A98-C4B897983D4D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7D2DA14-C250-7310-94C1-F57959478508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

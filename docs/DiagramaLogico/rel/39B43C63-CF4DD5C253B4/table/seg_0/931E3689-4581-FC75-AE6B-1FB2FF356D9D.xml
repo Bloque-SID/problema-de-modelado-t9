@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="931E3689-4581-FC75-AE6B-1FB2FF356D9D" name="Cita">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>BC23A865-F1A7-E908-AD62-C259A5B5A10C</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cita" id="B3765623-B0D2-3E14-2FD1-0F4541D41599">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>DA208A97-FFAF-B539-4379-BDD0FC9F325D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="B8CA6F95-7D80-1C37-EC88-58FB66AFBF06">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>06FE86C6-F0E7-751C-C930-9FD9C5441E25</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="2FA3262A-0193-C920-3EF8-AA1DA682F096">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>18F019C7-1179-08DD-0956-D9BC509F413F</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB4EF046-CDE5-7168-F934-FC9BB29C141F" referredColumn="6CAE5E7A-980E-B34D-E441-8C1F0FE8B841"/>
+</associations>
+</Column>
+<Column name="Mascota_id_Cliente" id="3F78B6FA-AB88-0254-DC94-929BA31C199C">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>60B38994-2475-34C7-50E0-FC7E19B7863D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="404379B3-BC26-6990-26D4-AAB2582DFEE4" referredColumn="940DA4BF-BD0B-6DF0-FEAC-8D7782846874"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95C960C7-4D36-E2E9-84D0-C183B3B1F21C" name="Cita_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>CA4D7E11-4DEE-2156-021E-C24301163D77</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3765623-B0D2-3E14-2FD1-0F4541D41599"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43DC0732-A9FA-F3A1-CC80-83E1E898D41F" name="Cita_Empleado_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>DC150637-D632-88E0-A938-B2C985403999</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FA3262A-0193-C920-3EF8-AA1DA682F096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9A33BC4-0A2D-6214-DFB7-26EDBA3B2382" name="Cita_Mascota_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>258AF853-B3A0-9ED1-7D6F-07D62C713986</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F78B6FA-AB88-0254-DC94-929BA31C199C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -4,7 +4,7 @@
 <createdTime>2023-04-24 04:08:47 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,18 +15,27 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo" id="5DCB7A1F-E6EF-BA0B-5BEB-71967CB2BEA8">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:09:25 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="nombre" id="401C971B-2C9A-DA1A-785B-F374E008294F">
 <createdBy>GAMER</createdBy>
 <createdTime>2023-04-24 04:08:56 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -35,11 +44,11 @@
 <createdTime>2023-04-24 04:29:00 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>401C971B-2C9A-DA1A-785B-F374E008294F</attributeRef>
+<attributeRef>5DCB7A1F-E6EF-BA0B-5BEB-71967CB2BEA8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

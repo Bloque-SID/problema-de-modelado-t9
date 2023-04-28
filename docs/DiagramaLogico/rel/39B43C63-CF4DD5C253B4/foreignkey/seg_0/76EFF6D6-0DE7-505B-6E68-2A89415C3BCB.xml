@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="76EFF6D6-0DE7-505B-6E68-2A89415C3BCB" containerWithKeyObject="C197030D-C6BB-44E6-0BE9-10810F224F6F" localFKIndex="B68FF344-3ACF-2717-A03B-06591153C524" name="Raza_Especie_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>DCA8DB21-E382-1D1A-1A98-C4B897983D4D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<referredTableLongName>Especie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1393E08A-4FB8-8EAB-5D4F-9B0EE151ACE2</referredTableID>
+<keyObject>E2AFF21F-0E2A-2F8D-797B-BAD6D00FB0BA</keyObject>
+<referredKeyID>E2AFF21F-0E2A-2F8D-797B-BAD6D00FB0BA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_especie</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

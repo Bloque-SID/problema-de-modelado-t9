@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33C41E48-F6E9-55F9-A30C-5C9876AD0133" containerWithKeyObject="EFE74157-68D7-2670-861F-67B98AF61286" localFKIndex="694152DF-AC2E-5454-F3D0-6F751EE49ABC" name="receta_Cita_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>D5117B90-5789-D67D-A73C-1F7702AE6A61</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<referredTableLongName>Cita</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>931E3689-4581-FC75-AE6B-1FB2FF356D9D</referredTableID>
+<keyObject>95C960C7-4D36-E2E9-84D0-C183B3B1F21C</keyObject>
+<referredKeyID>95C960C7-4D36-E2E9-84D0-C183B3B1F21C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cita</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

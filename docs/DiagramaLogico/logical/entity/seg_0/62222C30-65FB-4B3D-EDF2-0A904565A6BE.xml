@@ -4,7 +4,7 @@
 <createdTime>2023-04-24 02:35:55 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,12 +21,11 @@
 <generatorID>26E3E204-AD68-AFB5-D7F9-2E7F7FB6A762</generatorID>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <referedAttribute>13260731-E4C1-B9D8-79EB-11278CDA79C7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="E0FED2BA-EA05-B424-2829-4F14909E0632">
@@ -34,25 +33,22 @@
 <createdTime>2023-04-24 02:36:06 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="edad" id="C3407D6F-9DF4-FB04-ABCF-5FE4DC059524">
 <createdBy>GAMER</createdBy>
 <createdTime>2023-04-24 02:36:13 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="peso" id="BD5C2EBC-3C42-5F03-6514-835CE0E96646">
@@ -60,12 +56,11 @@
 <createdTime>2023-04-24 02:36:16 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_Registro" id="9F9A1875-531E-F50B-D77B-B81EA411A174">
@@ -73,28 +68,24 @@
 <createdTime>2023-04-24 02:36:21 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre1" id="3883CA1F-7B91-A40E-D7B2-C5080144A89F">
+<Attribute name="id_especie" id="23E7D7EC-4CBD-D0BF-6A2C-224A90C1B050">
 <createdBy>GAMER</createdBy>
-<createdTime>2023-04-24 04:31:23 UTC</createdTime>
+<createdTime>2023-04-28 12:21:43 UTC</createdTime>
 <generatorID>95478697-1324-54FA-205E-0D80EC0C7AC5</generatorID>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
-<referedAttribute>E6C3C1E8-0E84-0F1E-65D6-D6EB67EBADFA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 CHAR</dataTypeSize>
-<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<referedAttribute>FA92EF57-B5B7-C14C-421F-D40A5470C6ED</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -102,13 +93,11 @@
 <createdBy>GAMER</createdBy>
 <createdTime>2023-04-24 03:01:39 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="false"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E0FED2BA-EA05-B424-2829-4F14909E0632</attributeRef>
 <attributeRef>4F8BA2BE-158A-9367-C9A0-27D697D3C7E4</attributeRef>
 </usedAttributes>
 </identifier>

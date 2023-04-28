@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A95B0745-5215-224B-EEA9-23A55A626CC0" containerWithKeyObject="9CB44FAC-2FE6-79EC-9E09-2BF5C58AAF69" localFKIndex="87C166E8-7E62-6894-4C69-1F2B4454EB99" name="Mascota_Cliente_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:22:49 UTC</createdTime>
+<generatorID>26E3E204-AD68-AFB5-D7F9-2E7F7FB6A762</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<referredTableLongName>Cliente</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EA2FF4D8-1500-875F-9E9A-8CC27F473C57</referredTableID>
+<keyObject>298C3EE0-445E-3B29-1648-F5AA7DB8ECF1</keyObject>
+<referredKeyID>298C3EE0-445E-3B29-1648-F5AA7DB8ECF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_Cliente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

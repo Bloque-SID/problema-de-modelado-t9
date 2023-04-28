@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DataModelerIntensivos" id="7BCAC616-E3A0-A585-0C06-79E779CBAF53" version="3.5">
-<createdBy>GAMER</createdBy>
-<createdTime>2023-04-24 02:23:24 UTC</createdTime>
-<ownerDesignName>DataModelerIntensivos</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>7BCAC616-E3A0-A585-0C06-79E779CBAF53</designId>
-</OSDM_Design>

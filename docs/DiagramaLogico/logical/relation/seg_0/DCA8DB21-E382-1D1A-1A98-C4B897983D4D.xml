@@ -1,19 +1,18 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiene" directorySegmentName="seg_0" id="CFA65119-4A1C-9F2C-7B9A-8A057B67A7AC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contiene" directorySegmentName="seg_0" id="DCA8DB21-E382-1D1A-1A98-C4B897983D4D">
 <createdBy>GAMER</createdBy>
-<createdTime>2023-04-24 03:12:59 UTC</createdTime>
+<createdTime>2023-04-28 12:21:11 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
 </engineerTo>
 <sourcePk>51333276-0810-AC3E-6D19-17FB11795B8D</sourcePk>
-<dominantRole>D5DC6954-59B4-AC9C-8EAF-3D84F89C6122</dominantRole>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>D5DC6954-59B4-AC9C-8EAF-3D84F89C6122</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>1C8B3A35-F2CB-A67D-5AB1-FF160C05B43F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

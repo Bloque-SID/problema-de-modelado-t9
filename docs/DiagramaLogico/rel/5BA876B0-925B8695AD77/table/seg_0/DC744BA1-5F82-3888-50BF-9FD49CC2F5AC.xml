@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC744BA1-5F82-3888-50BF-9FD49CC2F5AC" name="Atiende">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_id_empleado" id="FB5866C8-EA99-6860-BC0F-D21653C493D3">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="84381389-D5FF-FD38-1466-224D95FD15C2" referredColumn="154AAD3D-FC99-C2F9-FD29-6024D7E5D767"/>
+</associations>
+</Column>
+<Column name="Mascota_id_Cliente" id="63C43CB2-094B-25CB-DCCE-1C27587E1296">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80DCE9C1-FB58-44CC-6379-74CCDE04731D" referredColumn="EF223FF9-0E2D-D2CB-8E56-C506D77D5831"/>
+</associations>
+</Column>
+<Column name="Mascota_nombre" id="620BB745-D359-CE07-53B8-7EAEF3C0F851">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80DCE9C1-FB58-44CC-6379-74CCDE04731D" referredColumn="0E3601BC-72C7-298E-4BF3-55D7ADC03F33"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A718CF0-73E6-C876-88E7-D11954FDDE88" name="Atiende_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB5866C8-EA99-6860-BC0F-D21653C493D3"/>
+<colUsage columnID="63C43CB2-094B-25CB-DCCE-1C27587E1296"/>
+<colUsage columnID="620BB745-D359-CE07-53B8-7EAEF3C0F851"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4E7C4F5-F230-46FE-4AF2-DB7EC2A9C1D1" name="Atiende_Empleado_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>DEB5E406-92A1-B739-93CC-B162A008ED46</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB5866C8-EA99-6860-BC0F-D21653C493D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68590170-4879-C21D-4767-CC0AEED12F27" name="Atiende_Mascota_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>DEB5E406-92A1-B739-93CC-B162A008ED46</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63C43CB2-094B-25CB-DCCE-1C27587E1296"/>
+<colUsage columnID="620BB745-D359-CE07-53B8-7EAEF3C0F851"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

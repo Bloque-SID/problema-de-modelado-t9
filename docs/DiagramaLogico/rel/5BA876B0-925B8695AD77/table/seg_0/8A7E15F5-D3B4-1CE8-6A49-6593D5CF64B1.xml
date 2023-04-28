@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A7E15F5-D3B4-1CE8-6A49-6593D5CF64B1" name="Mascota">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>62222C30-65FB-4B3D-EDF2-0A904565A6BE</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_id_Cliente" id="EF223FF9-0E2D-D2CB-8E56-C506D77D5831">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>4F8BA2BE-158A-9367-C9A0-27D697D3C7E4</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A822550-BDBE-812A-F98F-015E138FCE02" referredColumn="6F8D2055-9DD5-6071-4513-ED323CBB7F5B"/>
+</associations>
+</Column>
+<Column name="nombre" id="0E3601BC-72C7-298E-4BF3-55D7ADC03F33">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>E0FED2BA-EA05-B424-2829-4F14909E0632</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="784C6B92-492F-966A-9380-7472587F51ED">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>C3407D6F-9DF4-FB04-ABCF-5FE4DC059524</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="89F83383-F9B8-9D18-33B9-C0B9F0301B5C">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>BD5C2EBC-3C42-5F03-6514-835CE0E96646</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_Registro" id="CF803ECD-EC52-5E5C-BAE3-9527D46FBD82">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>9F9A1875-531E-F50B-D77B-B81EA411A174</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Raza_Especie_id_especie" id="7DBBFA79-C745-09D5-8EDB-1520DAFDCD77">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>23E7D7EC-4CBD-D0BF-6A2C-224A90C1B050</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB4981D9-F43F-DBF5-C8E6-89CA04702729" referredColumn="13DA1ABD-2F52-CCD0-D633-4FD08520D28B"/>
+</associations>
+</Column>
+<Column name="Raza_nombre" id="4CF1D5D4-BC77-4979-F46C-AEF5A731C38B">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>92C89FFF-2436-A93D-D17B-A401D6D4C2B5</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB4981D9-F43F-DBF5-C8E6-89CA04702729" referredColumn="88F768C5-076D-E95C-6BB6-DED92C444BC3"/>
+</associations>
+</Column>
+<Column name="fecha_adopcion" id="521C4C78-D529-C731-BFB9-CDACABAAF9DD">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>76AFB192-7E44-5DDF-F3C6-23C884826EF0</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>1A822550-BDBE-812A-F98F-015E138FCE02</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CD3147D-0798-C757-464F-7B5518DBEF69" name="Mascota_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>06E98FE1-ECFC-8E55-217A-942FB7C41A8A</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF223FF9-0E2D-D2CB-8E56-C506D77D5831"/>
+<colUsage columnID="0E3601BC-72C7-298E-4BF3-55D7ADC03F33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78F7B09F-EEBD-E1A5-5DE8-74542DD1B6E3" name="Mascota_Cliente_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>26E3E204-AD68-AFB5-D7F9-2E7F7FB6A762</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF223FF9-0E2D-D2CB-8E56-C506D77D5831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97AE303B-6848-68C1-0322-76FFB7418083" name="Mascota_Raza_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>95478697-1324-54FA-205E-0D80EC0C7AC5</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DBBFA79-C745-09D5-8EDB-1520DAFDCD77"/>
+<colUsage columnID="4CF1D5D4-BC77-4979-F46C-AEF5A731C38B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

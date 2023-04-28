@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="667700A0-E6A5-89BB-2B7E-B115C7F839C9" containerWithKeyObject="0136AE83-8BA7-4425-5255-5F817B51957C" localFKIndex="C6F0DD40-71EC-709E-BBB4-5753AC6FEE42" name="Cita_Empleado_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>DC150637-D632-88E0-A938-B2C985403999</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<referredTableLongName>Empleado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4B334DEA-5F92-15E9-9B63-F3A6A4F8B2D5</referredTableID>
+<keyObject>5868E251-0C62-A1C8-C230-78ADA2D615C3</keyObject>
+<referredKeyID>5868E251-0C62-A1C8-C230-78ADA2D615C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_empleado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

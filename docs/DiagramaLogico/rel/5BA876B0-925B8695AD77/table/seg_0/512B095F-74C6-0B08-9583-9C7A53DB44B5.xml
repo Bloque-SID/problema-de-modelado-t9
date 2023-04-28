@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="512B095F-74C6-0B08-9583-9C7A53DB44B5" name="Producto_Veterinario">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>3CDDF6CC-5994-FDA9-9DC5-2AF43133B0C7</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="08C17E32-E8E6-EF90-9AC3-D777E1A25E17">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>45A871AC-7A45-F9A8-4BDE-F400DF118372</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="CA0A2661-F5FF-4CEB-55D0-9BFB85615C42">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>730274E6-7DA1-12D9-F94A-08110F5F4F56</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dosis" id="EC48DD51-BF42-4CFC-15C1-3256356A0867">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>F4710E97-0707-0C68-471E-9B196F48DC96</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Producto_id_tipo" id="3A0B7FAA-67AE-E0A2-413F-9FA725CCD266">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>3D625419-6805-F35B-FAAD-7E67AE2543A7</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B62B02DE-A33E-D546-AECF-5AE6DF197624" referredColumn="B4CC5EEA-A8B9-F696-0C2F-DD3226C6E7A4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BB2C310-B669-6887-1FCE-78D8A29F28A9" name="Producto_Veterinario_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>A4A69DE5-2BF2-F03C-C294-1EA54DED9C22</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A0B7FAA-67AE-E0A2-413F-9FA725CCD266"/>
+<colUsage columnID="08C17E32-E8E6-EF90-9AC3-D777E1A25E17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D2773349-6EC9-3368-4546-3AD0ABC05881" name="Producto_Veterinario_Tipo_Producto_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:57 UTC</createdTime>
+<generatorID>CE1F865B-4C3E-5131-93BC-5C614F916452</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A0B7FAA-67AE-E0A2-413F-9FA725CCD266"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

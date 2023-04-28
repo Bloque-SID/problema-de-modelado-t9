@@ -4,7 +4,7 @@
 <createdTime>2023-04-24 02:35:55 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>26E3E204-AD68-AFB5-D7F9-2E7F7FB6A762</generatorID>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <referedAttribute>13260731-E4C1-B9D8-79EB-11278CDA79C7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -33,7 +33,7 @@
 <createdTime>2023-04-24 02:36:06 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -44,7 +44,7 @@
 <createdTime>2023-04-24 02:36:13 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -56,7 +56,7 @@
 <createdTime>2023-04-24 02:36:16 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,7 +68,7 @@
 <createdTime>2023-04-24 02:36:21 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -81,10 +81,23 @@
 <generatorID>95478697-1324-54FA-205E-0D80EC0C7AC5</generatorID>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <referedAttribute>FA92EF57-B5B7-C14C-421F-D40A5470C6ED</referedAttribute>
 <use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre1" id="92C89FFF-2436-A93D-D17B-A401D6D4C2B5">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 12:52:13 UTC</createdTime>
+<generatorID>95478697-1324-54FA-205E-0D80EC0C7AC5</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+</engineerTo>
+<referedAttribute>E6C3C1E8-0E84-0F1E-65D6-D6EB67EBADFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -94,11 +107,12 @@
 <createdTime>2023-04-24 03:01:39 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4F8BA2BE-158A-9367-C9A0-27D697D3C7E4</attributeRef>
+<attributeRef>E0FED2BA-EA05-B424-2829-4F14909E0632</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

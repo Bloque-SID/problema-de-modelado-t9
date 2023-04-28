@@ -4,7 +4,7 @@
 <createdTime>2023-04-24 04:06:54 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,8 @@
 <createdTime>2023-04-24 04:07:15 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -32,7 +31,7 @@
 <createdTime>2023-04-24 04:07:18 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -44,7 +43,7 @@
 <createdTime>2023-04-24 04:07:21 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,7 +56,7 @@
 <generatorID>CE1F865B-4C3E-5131-93BC-5C614F916452</generatorID>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <referedAttribute>5DCB7A1F-E6EF-BA0B-5BEB-71967CB2BEA8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -71,11 +70,12 @@
 <createdTime>2023-04-24 04:07:27 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="39B43C63-F340-DF11-25AF-CF4DD5C253B4" value="true"/>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>3D625419-6805-F35B-FAAD-7E67AE2543A7</attributeRef>
+<attributeRef>45A871AC-7A45-F9A8-4BDE-F400DF118372</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

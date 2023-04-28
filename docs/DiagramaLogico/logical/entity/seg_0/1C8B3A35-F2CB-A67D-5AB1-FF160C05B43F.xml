@@ -39,6 +39,19 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nombre1" id="C73296FF-5AB8-3076-E9C3-48A73ECB118A">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 13:00:18 UTC</createdTime>
+<generatorID>DCA8DB21-E382-1D1A-1A98-C4B897983D4D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+</engineerTo>
+<referedAttribute>0E959662-A841-AC44-4155-E78117F99F69</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4D7B6DE4-7A88-34C4-6700-23D87540D338" name="Raza PK">

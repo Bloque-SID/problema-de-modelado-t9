@@ -31,6 +31,19 @@
 <colAssociation fkAssociation="23880717-8A0A-F5EE-106D-4719E009FE3B" referredColumn="F981565E-3441-C9B5-7DC8-5B2BA8CEC219"/>
 </associations>
 </Column>
+<Column name="Especie_nombre" id="B7DD60F7-0EC8-2094-715A-6F9E49EF9E82">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 13:00:30 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23880717-8A0A-F5EE-106D-4719E009FE3B" referredColumn="24755D32-B83C-6F62-7931-6306A7DEA755"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="669BB76C-D45E-F53D-CD35-02663BCD0DB8" name="Raza_PK">
@@ -64,6 +77,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="13DA1ABD-2F52-CCD0-D633-4FD08520D28B"/>
+<colUsage columnID="B7DD60F7-0EC8-2094-715A-6F9E49EF9E82"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

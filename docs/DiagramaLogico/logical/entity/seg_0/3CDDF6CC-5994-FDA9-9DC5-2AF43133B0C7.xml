@@ -63,6 +63,19 @@
 <use>1</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nombre1" id="F7320E3C-2A13-03DA-7E48-D45DFE9693DC">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 13:00:14 UTC</createdTime>
+<generatorID>CE1F865B-4C3E-5131-93BC-5C614F916452</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+</engineerTo>
+<referedAttribute>401C971B-2C9A-DA1A-785B-F374E008294F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A4A69DE5-2BF2-F03C-C294-1EA54DED9C22" name="Producto_Veterinario PK">

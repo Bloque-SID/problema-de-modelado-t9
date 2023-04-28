@@ -54,6 +54,19 @@
 <colAssociation fkAssociation="B62B02DE-A33E-D546-AECF-5AE6DF197624" referredColumn="B4CC5EEA-A8B9-F696-0C2F-DD3226C6E7A4"/>
 </associations>
 </Column>
+<Column name="Tipo_Producto_nombre" id="E07E9B58-5CC2-7961-3C9D-85284956BD51">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-28 13:00:26 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B62B02DE-A33E-D546-AECF-5AE6DF197624" referredColumn="9AE7E4C2-9523-F4A7-74C0-F0E6A6F719B5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="8BB2C310-B669-6887-1FCE-78D8A29F28A9" name="Producto_Veterinario_PK">
@@ -78,6 +91,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3A0B7FAA-67AE-E0A2-413F-9FA725CCD266"/>
+<colUsage columnID="E07E9B58-5CC2-7961-3C9D-85284956BD51"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

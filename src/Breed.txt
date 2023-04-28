@@ -1,0 +1,5 @@
+INSERT INTO Breed (idBreed, name) VALUES (1, 'Labrador Retriever');
+INSERT INTO Breed (idBreed, name) VALUES (2, 'Siamese');
+INSERT INTO Breed (idBreed, name) VALUES (3, 'Budgerigar');
+INSERT INTO Breed (idBreed, name) VALUES (4, 'German Shepherd');
+INSERT INTO Breed (idBreed, name) VALUES (5, 'Persian');

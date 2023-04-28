@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D007563-B1DE-D1C2-4DA4-65F521197D77" name="Tipo_Producto">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>448E3CB0-3874-C224-0267-9BEFE6D172AF</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="E9ECFD8D-7694-CA6B-A07B-3906CE9B9418">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>401C971B-2C9A-DA1A-785B-F374E008294F</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AA24ED1-6EE9-C1AB-33D0-2CA08C0BA5E8" name="Tipo_Producto_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>220BB319-B890-F63E-E4E0-A5FC8685F01A</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9ECFD8D-7694-CA6B-A07B-3906CE9B9418"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

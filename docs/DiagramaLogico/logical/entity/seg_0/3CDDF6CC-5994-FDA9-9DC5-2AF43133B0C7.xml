@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CDDF6CC-5994-FDA9-9DC5-2AF43133B0C7" name="Producto_Veterinario">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:06:54 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="9CEEF568-C466-A9CB-BB38-3618BBAAF85E">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:07:08 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="45A871AC-7A45-F9A8-4BDE-F400DF118372">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:07:15 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="730274E6-7DA1-12D9-F94A-08110F5F4F56">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:07:18 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,2,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dosis" id="F4710E97-0707-0C68-471E-9B196F48DC96">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:07:21 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,2,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre1" id="EFBFACEC-DF50-792D-074E-5DB0BEE5848C">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:29:01 UTC</createdTime>
+<generatorID>CE1F865B-4C3E-5131-93BC-5C614F916452</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<referedAttribute>401C971B-2C9A-DA1A-785B-F374E008294F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4A69DE5-2BF2-F03C-C294-1EA54DED9C22" name="Producto_Veterinario PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:07:27 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CEEF568-C466-A9CB-BB38-3618BBAAF85E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

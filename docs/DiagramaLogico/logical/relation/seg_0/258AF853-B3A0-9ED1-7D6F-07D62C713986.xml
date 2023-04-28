@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="es atendida" directorySegmentName="seg_0" id="258AF853-B3A0-9ED1-7D6F-07D62C713986">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:26:13 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<sourcePk>06E98FE1-ECFC-8E55-217A-942FB7C41A8A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>62222C30-65FB-4B3D-EDF2-0A904565A6BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC23A865-F1A7-E908-AD62-C259A5B5A10C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

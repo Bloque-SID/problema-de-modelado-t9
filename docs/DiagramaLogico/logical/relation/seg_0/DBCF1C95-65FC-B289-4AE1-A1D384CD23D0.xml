@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ejerce" directorySegmentName="seg_0" id="DBCF1C95-65FC-B289-4AE1-A1D384CD23D0">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:46:58 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<sourcePk>5B8792CD-1ED6-F63C-CBFB-9A81CA7A0BED</sourcePk>
+<targetPk>A5A54793-81A2-9C8C-FDDC-000B5A909500</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D69BE673-2A15-196B-EF0E-BEB82A4A936D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>5D049236-6170-53A2-131C-B9C1B79424E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

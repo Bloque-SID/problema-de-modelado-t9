@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D69BE673-2A15-196B-EF0E-BEB82A4A936D" name="Empleado">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:15:22 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empleado" id="ADC57859-B532-A1D2-1AC0-B77D14D18B8A">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:15:33 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="C7D9EC44-EC15-1116-5DF6-F4EA16EDAE65">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:15:40 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="EB506A14-F38F-32B7-1B6B-E3668EDAEBD6">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:15:42 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salario" id="66BF9C71-66E9-806B-6D1F-9A9CA9940BED">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:15:50 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,2,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_contratacion" id="5A2ED763-E5D9-DD63-02C2-362C3C72178E">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:16:00 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre1" id="586A1599-1B0B-96F8-2C45-E49DA400D903">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:47:57 UTC</createdTime>
+<generatorID>DBCF1C95-65FC-B289-4AE1-A1D384CD23D0</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<referedAttribute>AC5CB3E1-5C97-999D-30C9-DFF18C60240B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B8792CD-1ED6-F63C-CBFB-9A81CA7A0BED" name="Empleado PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:20:54 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADC57859-B532-A1D2-1AC0-B77D14D18B8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

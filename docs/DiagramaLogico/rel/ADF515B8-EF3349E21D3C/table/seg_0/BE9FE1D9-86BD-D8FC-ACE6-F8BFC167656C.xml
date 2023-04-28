@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE9FE1D9-86BD-D8FC-ACE6-F8BFC167656C" name="Atiende">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 05:50:42 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_id_empleado" id="3609B858-0682-3706-4080-06B3C12B1D58">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 05:50:42 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA2CC963-A606-B0E9-0B3A-C459AE95ECED" referredColumn="8B9AAF6F-74F1-46F2-7E39-AD1B879D9855"/>
+</associations>
+</Column>
+<Column name="Mascota_nombre" id="6D0E4A35-D483-DF8D-2150-09399F857F47">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 05:50:42 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC8E7F1D-32D5-28EA-0C1D-75CE1F3B7EE7" referredColumn="068788FB-F075-EE10-64C7-119DBC4FE578"/>
+</associations>
+</Column>
+<Column name="Mascota_Cliente_id_Cliente" id="33EDFCB2-5806-F36E-A192-C6538F572137">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 05:50:42 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC8E7F1D-32D5-28EA-0C1D-75CE1F3B7EE7" referredColumn="F05001BE-A592-700A-92E0-07A23FEE454D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15C17903-3848-0F0A-CECD-EA542F2BFB5E" name="Atiende_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 05:50:42 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3609B858-0682-3706-4080-06B3C12B1D58"/>
+<colUsage columnID="6D0E4A35-D483-DF8D-2150-09399F857F47"/>
+<colUsage columnID="33EDFCB2-5806-F36E-A192-C6538F572137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="661BDD8B-D170-7171-AF8D-61A7E322E116" name="Atiende_Empleado_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 05:50:42 UTC</createdTime>
+<generatorID>DEB5E406-92A1-B739-93CC-B162A008ED46</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3609B858-0682-3706-4080-06B3C12B1D58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCB9F852-FEFB-720B-FB2E-745FDC6464C6" name="Atiende_Mascota_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 05:50:42 UTC</createdTime>
+<generatorID>DEB5E406-92A1-B739-93CC-B162A008ED46</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0E4A35-D483-DF8D-2150-09399F857F47"/>
+<colUsage columnID="33EDFCB2-5806-F36E-A192-C6538F572137"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

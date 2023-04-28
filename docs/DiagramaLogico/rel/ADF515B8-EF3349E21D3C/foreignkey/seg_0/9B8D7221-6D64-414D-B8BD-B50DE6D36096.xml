@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B8D7221-6D64-414D-B8BD-B50DE6D36096" containerWithKeyObject="DFF07FEE-973A-DDF2-7A3E-4B0FFBCEF4F0" localFKIndex="97572735-1FED-33DF-4753-FD42CF54AF5B" name="Producto_Veterinario_Tipo_Producto_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>CE1F865B-4C3E-5131-93BC-5C614F916452</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<referredTableLongName>Tipo_Producto</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D007563-B1DE-D1C2-4DA4-65F521197D77</referredTableID>
+<keyObject>0AA24ED1-6EE9-C1AB-33D0-2CA08C0BA5E8</keyObject>
+<referredKeyID>0AA24ED1-6EE9-C1AB-33D0-2CA08C0BA5E8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nombre</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

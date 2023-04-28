@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC23A865-F1A7-E908-AD62-C259A5B5A10C" name="Cita">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:14:11 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cita" id="DA208A97-FFAF-B539-4379-BDD0FC9F325D">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:14:47 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="06FE86C6-F0E7-751C-C930-9FD9C5441E25">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:14:16 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="18F019C7-1179-08DD-0956-D9BC509F413F">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:26:51 UTC</createdTime>
+<generatorID>DC150637-D632-88E0-A938-B2C985403999</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<referedAttribute>ADC57859-B532-A1D2-1AC0-B77D14D18B8A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E3577734-567A-819B-6F96-D43739F9D91C">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:39:29 UTC</createdTime>
+<generatorID>258AF853-B3A0-9ED1-7D6F-07D62C713986</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<referedAttribute>E0FED2BA-EA05-B424-2829-4F14909E0632</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Cliente" id="60B38994-2475-34C7-50E0-FC7E19B7863D">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:40:21 UTC</createdTime>
+<generatorID>258AF853-B3A0-9ED1-7D6F-07D62C713986</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<referedAttribute>4F8BA2BE-158A-9367-C9A0-27D697D3C7E4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA4D7E11-4DEE-2156-021E-C24301163D77" name="Cita PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:14:57 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA208A97-FFAF-B539-4379-BDD0FC9F325D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

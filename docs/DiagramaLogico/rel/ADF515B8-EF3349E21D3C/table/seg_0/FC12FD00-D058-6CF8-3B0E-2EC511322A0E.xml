@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC12FD00-D058-6CF8-3B0E-2EC511322A0E" name="receta">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cita_id_cita" id="75FA509A-1974-FE64-9B14-ECBEFEB120F0">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63596788-E02D-8897-21B8-F7322F088033" referredColumn="B1165E5E-5023-2FE5-49F0-80E8C954CAD6"/>
+</associations>
+</Column>
+<Column name="Producto_Veterinario_id_producto" id="68EA6530-4376-DD80-7671-9F80B41C20B9">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0EEF7D1-11E6-A0C6-D6D0-D261F1DF6786" referredColumn="EA427CDB-71C5-594F-5CA9-6D8FBCAEC2BB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="543E60ED-71BF-0390-9C2B-D9CA57E58C31" name="receta_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FA509A-1974-FE64-9B14-ECBEFEB120F0"/>
+<colUsage columnID="68EA6530-4376-DD80-7671-9F80B41C20B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE074A0F-A332-06EB-13D7-10F2A1DB4482" name="receta_Cita_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>D5117B90-5789-D67D-A73C-1F7702AE6A61</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75FA509A-1974-FE64-9B14-ECBEFEB120F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C716AD4-C0FC-A12D-D46A-95BC81945370" name="receta_Producto_Veterinario_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>D5117B90-5789-D67D-A73C-1F7702AE6A61</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68EA6530-4376-DD80-7671-9F80B41C20B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

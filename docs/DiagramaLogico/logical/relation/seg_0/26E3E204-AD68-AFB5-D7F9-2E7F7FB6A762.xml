@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Es dueño" directorySegmentName="seg_0" id="26E3E204-AD68-AFB5-D7F9-2E7F7FB6A762">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 02:39:12 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<sourcePk>7B43EB9F-D027-F0BA-605C-28887F9A1726</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EEE862AA-E34A-8958-2A86-446C25FF5A32</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62222C30-65FB-4B3D-EDF2-0A904565A6BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="fecha_adopcion" id="76AFB192-7E44-5DDF-F3C6-23C884826EF0">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:06:34 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

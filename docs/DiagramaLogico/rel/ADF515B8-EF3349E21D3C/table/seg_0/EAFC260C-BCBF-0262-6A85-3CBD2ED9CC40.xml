@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAFC260C-BCBF-0262-6A85-3CBD2ED9CC40" name="Cita">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>BC23A865-F1A7-E908-AD62-C259A5B5A10C</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cita" id="B1165E5E-5023-2FE5-49F0-80E8C954CAD6">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>DA208A97-FFAF-B539-4379-BDD0FC9F325D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="185ADC86-E27D-95B1-D2DC-20808C15F63A">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>06FE86C6-F0E7-751C-C930-9FD9C5441E25</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="69D2362B-643F-B3FC-7137-113E438B6FAA">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>18F019C7-1179-08DD-0956-D9BC509F413F</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A75D3D2-693F-8480-9CBE-9AD968C1F605" referredColumn="8B9AAF6F-74F1-46F2-7E39-AD1B879D9855"/>
+</associations>
+</Column>
+<Column name="Mascota_nombre" id="86A64DCF-032C-9CD4-60BC-CC11776F6B5A">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>E3577734-567A-819B-6F96-D43739F9D91C</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56A1B7E4-9A76-715E-09B2-8A326B3C26DB" referredColumn="068788FB-F075-EE10-64C7-119DBC4FE578"/>
+</associations>
+</Column>
+<Column name="Mascota_Cliente_id_Cliente" id="B09E37A1-0904-4DE5-35A1-7528C07ED6D9">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>60B38994-2475-34C7-50E0-FC7E19B7863D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56A1B7E4-9A76-715E-09B2-8A326B3C26DB" referredColumn="F05001BE-A592-700A-92E0-07A23FEE454D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEEEE84D-346B-C8B6-42FC-772FBFC21052" name="Cita_PK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>CA4D7E11-4DEE-2156-021E-C24301163D77</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1165E5E-5023-2FE5-49F0-80E8C954CAD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43683635-ECD1-5015-05CB-318048C7F9EA" name="Cita_Empleado_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>DC150637-D632-88E0-A938-B2C985403999</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69D2362B-643F-B3FC-7137-113E438B6FAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE6BFA27-1DCE-AB75-7632-3E7E0C5CE7AD" name="Cita_Mascota_FK">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:55:00 UTC</createdTime>
+<generatorID>258AF853-B3A0-9ED1-7D6F-07D62C713986</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86A64DCF-032C-9CD4-60BC-CC11776F6B5A"/>
+<colUsage columnID="B09E37A1-0904-4DE5-35A1-7528C07ED6D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

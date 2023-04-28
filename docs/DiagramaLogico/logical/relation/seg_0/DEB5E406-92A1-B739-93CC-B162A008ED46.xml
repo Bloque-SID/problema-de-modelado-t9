@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name=" Atiende" directorySegmentName="seg_0" id="DEB5E406-92A1-B739-93CC-B162A008ED46">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 03:25:46 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<sourcePk>5B8792CD-1ED6-F63C-CBFB-9A81CA7A0BED</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D69BE673-2A15-196B-EF0E-BEB82A4A936D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62222C30-65FB-4B3D-EDF2-0A904565A6BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

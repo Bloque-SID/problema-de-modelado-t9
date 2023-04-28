@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tienev2" directorySegmentName="seg_0" id="CE1F865B-4C3E-5131-93BC-5C614F916452">
+<createdBy>GAMER</createdBy>
+<createdTime>2023-04-24 04:09:16 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<engineerTo>
+<item key="ADF515B8-4114-0C65-C157-EF3349E21D3C" value="true"/>
+</engineerTo>
+<sourcePk>A4A69DE5-2BF2-F03C-C294-1EA54DED9C22</sourcePk>
+<targetPk>220BB319-B890-F63E-E4E0-A5FC8685F01A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>3CDDF6CC-5994-FDA9-9DC5-2AF43133B0C7</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>448E3CB0-3874-C224-0267-9BEFE6D172AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,115 @@
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (51, 'Marcela', 'González', 'Calle 10 # 5-50', 'marcela.gonzalez@gmail.com', '3145678901', '2023-05-01');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (52, 'Luis', 'Vargas', 'Carrera 15 # 8-30', 'luisvargas@hotmail.com', '3156789012', '2023-05-02');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (53, 'Miguel', 'Ramírez', 'Calle 5 # 18-60', 'miguel.ramirez@gmail.com', '3167890123', '2023-05-03');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (54, 'Sandra', 'García', 'Avenida 4N # 30-15', 'sandra.garcia@hotmail.com', '3178901234', '2023-05-04');
+ 
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (55, 'Juan', 'Pérez', 'Calle 16 # 8-65', 'juan.perez@gmail.com', '3189012345', '2023-05-05');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (56, 'Carolina', 'López', 'Carrera 2 # 25-70', 'carolinalopez@hotmail.com', '3190123456', '2023-05-06');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (57, 'Andrés', 'Hernández', 'Calle 7 # 11-35', 'andres.hernandez@gmail.com', '3201234567', '2023-05-07');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (58, 'Laura', 'Castro', 'Carrera 5 # 15-25', 'laura.castro@hotmail.com', '3212345678', '2023-05-08');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (59, 'Diego', 'Gómez', 'Calle 11 # 6-40', 'diego.gomez@gmail.com', '3223456789', '2023-05-09');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (60, 'Valentina', 'Díaz', 'Carrera 3 # 10-50', 'valentina.diaz@hotmail.com', '3234567890', '2023-05-10');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (13, 'Samantha', 'Barnes', 'Carrera 4 # 23-50', 'samantha.barnes@gmail.com', '3234567890', '2023-04-29');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (14, 'Derek', 'Williams', 'Calle 7 # 30-21', 'derek.williams@hotmail.com', '3123456789', '2023-04-30');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (15, 'Heather', 'Rodriguez', 'Avenida 4N # 34-78', 'heather.rodriguez@gmail.com', '3209876543', '2023-05-01');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (16, 'Nate', 'Parker', 'Carrera 15 # 8-17', 'nate.parker@hotmail.com', '3112345678', '2023-05-02');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (17, 'Olivia', 'Nguyen', 'Calle 2 # 25-32', 'olivia.nguyen@gmail.com', '3134567890', '2023-05-03');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (18, 'Javier', 'Gonzalez', 'Carrera 10 # 18-54', 'javier.gonzalez@hotmail.com', '3209876543', '2023-05-04');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (19, 'Emily', 'Scott', 'Avenida 3N # 19-20', 'emily.scott@gmail.com', '3145678901', '2023-05-05');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (20, 'Marcus', 'Ramirez', 'Carrera 13 # 7-32', 'marcus.ramirez@gmail.com', '3109876543', '2023-05-06');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (21, 'Maggie', 'Carter', 'Calle 5 # 28-50', 'maggie.carter@hotmail.com', '3123456789', '2023-05-07');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (22, 'Aaron', 'Garcia', 'Avenida 2N # 16-30', 'aaron.garcia@gmail.com', '3145678901', '2023-05-08');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (23, 'Sophie', 'Lee', 'Calle 8 # 12-21', 'sophie.lee@hotmail.com', '3209876543', '2023-05-09');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (24, 'Maria', 'Garcia', 'Calle 23 # 6-45', 'mariagarcia@gmail.com', '3123456789', '2023-04-28');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (25, 'Pedro', 'Ramirez', 'Carrera 10 # 5-67', 'pedroramirez@hotmail.com', '3209876543', '2023-04-27');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (26, 'Sofia', 'Hernandez', 'Avenida 3 # 4-32', 'sofiahernandez@gmail.com', '3145678901', '2023-04-26');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (27, 'Juan', 'Perez', 'Calle 12 # 7-89', 'juanperez@outlook.com', '3154321098', '2023-04-25');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (28, 'Camila', 'Rodriguez', 'Carrera 8 # 10-11', 'camilarodriguez@hotmail.com', '3132109876', '2023-04-24');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (29, 'Luis', 'Gonzalez', 'Avenida 6 # 9-23', 'luisgonzalez@gmail.com', '3178901234', '2023-04-23');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (30, 'Valentina', 'Lopez', 'Calle 9 # 3-45', 'valentinalopez@hotmail.com', '3187654321', '2023-04-22');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (31, 'Andres', 'Martinez', 'Carrera 12 # 4-56', 'andresmartinez@gmail.com', '3112345678', '2023-04-21');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (32, 'Carolina', 'Castro', 'Avenida 5 # 2-34', 'carolinacastro@outlook.com', '3120987654', '2023-04-20');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (33, 'Miguel', 'Sanchez', 'Calle 7 # 6-78', 'miguelsanchez@gmail.com', '3145678901', '2023-04-19');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate)
+VALUES (34, 'Juliana', 'Ramirez', 'Carrera 4 # 9-01', 'julianaramirez@hotmail.com', '3198765432', '2023-04-18');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (35, 'Laura', 'Rojas', 'Calle 20 # 14-30', 'laurarojas@gmail.com', '3012345678', '2022-01-01');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (36, 'Jorge', 'García', 'Carrera 80 # 3-15', 'jorge.garcia@hotmail.com', '3123456789', '2022-01-02');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (37, 'Ana', 'Sánchez', 'Calle 5 # 29-12', 'ana.sanchez@gmail.com', '3134567890', '2022-01-03');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (38, 'Julio', 'Castillo', 'Avenida 2 Norte # 8-90', 'juliocastillo@hotmail.com', '3045678901', '2022-01-04');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (39, 'María', 'López', 'Carrera 7 # 23-45', 'marialopez@gmail.com', '3056789012', '2022-01-05');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (40, 'David', 'Gómez', 'Calle 8 # 12-34', 'davidgomez@hotmail.com', '3167890123', '2022-01-06');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (41, 'Lucía', 'Hernández', 'Carrera 50 # 15-67', 'luciahernandez@gmail.com', '3178901234', '2022-01-07');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (42, 'Pedro', 'Ramírez', 'Calle 19 # 28-90', 'pedroramirez@gmail.com', '3189012345', '2022-01-08');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (43, 'Sofía', 'Rojas', 'Avenida 3 Oeste # 6-78', 'sofiarojas@hotmail.com', '3000000001', '2022-01-09');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (44, 'Mario', 'Vargas', 'Carrera 12 # 34-56', 'mariovargas@gmail.com', '3011111111', '2022-01-10');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) VALUES (45, 'Camila', 'García', 'Calle 23 # 20-10', 'camilagarcia@hotmail.com', '3022222222', '2022-01-11');
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) 
+VALUES (46, 'Luisa', 'Hernández', 'Calle 8 # 21-47', 'luisa.hernandez@gmail.com', '3222564321', '2022-03-12');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) 
+VALUES (47, 'Jorge', 'González', 'Carrera 25 # 50-03', 'jorge.gonzalez@hotmail.com', '3109987564', '2022-05-20');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) 
+VALUES (48, 'Sara', 'Rodríguez', 'Calle 70 # 3-20', 'sara.rodriguez@gmail.com', '3159876543', '2022-06-18');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) 
+VALUES (49, 'Manuel', 'López', 'Carrera 15 # 46-12', 'manuel.lopez@outlook.com', '3208765432', '2022-07-11');
+
+INSERT INTO Client (idClient, name, lastName, Address, email, telephone, registrationDate) 
+VALUES (50, 'Ana', 'Moreno', 'Calle 10 # 35-08', 'ana.moreno@hotmail.com', '3137890654', '2022-08-30');
+
+
+
+

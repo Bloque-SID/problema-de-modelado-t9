@@ -1,0 +1,80 @@
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (1, 'John', 'Doe', '2020-01-01', 50000.00, 'Manager');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (2, 'Jane', 'Smith', '2020-01-02', 45000.00, 'Assistant Manager');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (3, 'Michael', 'Johnson', '2020-01-03', 40000.00, 'Sales Representative');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (4, 'Sarah', 'Brown', '2020-01-04', 35000.00, 'Marketing Coordinator');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (5, 'David', 'Lee', '2020-01-05', 30000.00, 'Accounting Clerk');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (6, 'Emily', 'Wang', '2020-01-06', 25000.00, 'Human Resources Assistant');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (7, 'Daniel', 'Garcia', '2020-01-07', 20000.00, 'Intern');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (8, 'Jessica', 'Kim', '2020-01-08', 15000.00, 'Intern');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (9, 'Christopher', 'Nguyen', '2020-01-09', 10000.00, 'Janitor');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (10, 'Olivia', 'Gonzalez', '2020-01-10', 5000.00, 'Volunteer');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (11, 'Ava', 'Martinez', '2020-01-11', 55000.00, 'Manager');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (12, 'Noah', 'Taylor', '2020-01-12', 50500.00, 'Assistant Manager');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (13, 'Emma', 'Wilson', '2020-01-13', 46000.00, 'Sales Representative');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (14, 'William', 'Anderson', '2020-01-14', 41500.00, 'Marketing Coordinator');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (15, 'Sophia', 'Davis', '2020-01-15', 37000.00, 'Accounting Clerk');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (16, 'Alexander', 'Miller', '2020-01-16', 32500.00,
+
+
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (17, 'Jacob', 'Gonzalez', '2015-09-15', 130000.00, 'Product Director');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (18, 'Olivia', 'Hernandez', '2014-02-01', 150000.00, 'Chief Marketing Officer');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (19, 'Ethan', 'Li', '2013-05-15', 175000.00, 'Chief Technology Officer');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (20, 'Avery', 'Chen', '2012-08-01', 200000.00, 'Chief Executive Officer');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (21, 'Liam', 'Jones', '2021-06-01', 60000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (22, 'Emma', 'Smith', '2022-01-15', 45000.00, 'Veterinary Assistant');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (23, 'Olivia', 'Davis', '2022-02-21', 50000.00, 'Receptionist');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (24, 'Noah', 'Miller', '2021-03-05', 55000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (25, 'Ava', 'Wilson', '2022-04-18', 40000.00, 'Veterinary Assistant');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (26, 'William', 'Taylor', '2022-03-12', 50000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (27, 'Sophia', 'Anderson', '2021-05-20', 45000.00, 'Veterinary Assistant');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (28, 'James', 'Clark', '2022-01-10', 55000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (29, 'Mia', 'Wright', '2022-03-28', 40000.00, 'Receptionist');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (30, 'Benjamin', 'Brown', '2021-11-02', 50000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (61, 'Maria', 'Gonzalez', '2020-06-15', 40000.00, 'Receptionist');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (62, 'Samantha', 'Lopez', '2021-01-02', 45000.00, 'Accountant');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (63, 'Alex', 'Nguyen', '2019-09-12', 55000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (64, 'Diego', 'Ramirez', '2020-10-30', 50000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (65, 'Emily', 'Hernandez', '2021-03-20', 38000.00, 'Receptionist');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (66, 'John', 'Smith', '2018-12-05', 75000.00, 'Manager');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (67, 'Maggie', 'Lee', '2020-07-10', 40000.00, 'Groomer');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (68, 'Benjamin', 'Taylor', '2021-02-18', 45000.00, 'Accountant');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (69, 'Avery', 'Davis', '2019-11-24', 50000.00, 'Veterinarian');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role) VALUES (70, 'Olivia', 'Wang', '2020-09-15', 38000.00, 'Receptionist');
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (61, 'John', 'Doe', '2022-03-15', 4500.00, 'Manager');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (62, 'Mary', 'Smith', '2022-02-10', 3000.00, 'Sales Representative');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (63, 'David', 'Lee', '2021-11-30', 2800.00, 'Accountant');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (64, 'Emily', 'Wang', '2022-01-01', 4200.00, 'IT Specialist');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (65, 'Michael', 'Garcia', '2022-04-20', 3500.00, 'Marketing Coordinator');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (66, 'Sophia', 'Chen', '2021-10-15', 3200.00, 'Customer Service Representative');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (67, 'William', 'Kim', '2022-02-28', 4000.00, 'Software Engineer');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (68, 'Jessica', 'Nguyen', '2021-12-10', 2900.00, 'Human Resources Assistant');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (69, 'Alexander', 'Gonzalez', '2022-03-01', 3800.00, 'Financial Analyst');
+
+INSERT INTO Employee (idEmployee, name, lastName, hireDate, salary, role)
+VALUES (70, 'Lily', 'Zhang', '2021-11-01', 3100.00, 'Operations Manager');

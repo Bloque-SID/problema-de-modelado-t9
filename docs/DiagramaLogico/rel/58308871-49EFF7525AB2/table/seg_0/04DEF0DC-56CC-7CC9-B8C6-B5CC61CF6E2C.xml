@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04DEF0DC-56CC-7CC9-B8C6-B5CC61CF6E2C" name="Cliente">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>EEE862AA-E34A-8958-2A86-446C25FF5A32</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Cliente" id="02CDF532-079C-75F0-3437-BC6A587714B3">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>13260731-E4C1-B9D8-79EB-11278CDA79C7</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="3C9B056E-6228-176E-67AC-2E755045CEE7">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>419D8291-479C-2442-9117-1489D97F5A8B</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5D0F747E-8BF5-7E69-5C73-84D25ED5F3BA">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>9E1E0CFA-FE47-2D8D-2065-7DB5AC71C1C6</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="56467C71-0545-B125-D057-259E8757C799">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>862E4299-7AD6-2D8C-29AA-4E6837FB18DD</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="03997A79-B4E5-D9FE-784D-D2B1F11B4DFE">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>C600F2FF-396A-4779-984F-8C7245CA060B</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="EE95261C-36C2-2228-E29E-A4A637AE1316">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>C15457BC-1757-3B79-69AB-31A3DB50A253</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_Registro" id="4FBECB38-9441-5A9C-D7F6-71941AF9780C">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>31CC3879-AC98-1E8E-753F-05CC7112D130</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59A6DC8C-5EC3-C651-2F5B-37DE0F699186" name="Cliente_PK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>7B43EB9F-D027-F0BA-605C-28887F9A1726</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02CDF532-079C-75F0-3437-BC6A587714B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

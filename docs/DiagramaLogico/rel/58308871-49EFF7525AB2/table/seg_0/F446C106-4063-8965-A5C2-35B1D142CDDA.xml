@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F446C106-4063-8965-A5C2-35B1D142CDDA" name="Mascota">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>62222C30-65FB-4B3D-EDF2-0A904565A6BE</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_id_Cliente" id="C75F70B8-C53C-3B8C-A196-102CA440A921">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>4F8BA2BE-158A-9367-C9A0-27D697D3C7E4</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BF025FD-1BCF-2D28-B567-082CCE23BA8C" referredColumn="02CDF532-079C-75F0-3437-BC6A587714B3"/>
+</associations>
+</Column>
+<Column name="nombre" id="910C8CA4-43EC-8944-A1FD-D03E5E7A5314">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>E0FED2BA-EA05-B424-2829-4F14909E0632</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="8063BF29-6B27-8791-423B-ECBF77462CCF">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>C3407D6F-9DF4-FB04-ABCF-5FE4DC059524</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="E63E2CF2-CC0F-DEB9-DBCA-83BE54AB4F6F">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>BD5C2EBC-3C42-5F03-6514-835CE0E96646</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_Registro" id="2C387DFC-0062-8163-E8D6-F9FEDAD79C7E">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>9F9A1875-531E-F50B-D77B-B81EA411A174</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Raza_Especie_id_especie" id="F88FC04F-077B-4C34-B946-ECD0D1A01A75">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>23E7D7EC-4CBD-D0BF-6A2C-224A90C1B050</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2E5F906-A26E-68F2-4F87-82047DD1FC06" referredColumn="B7C9AB06-2250-5DD3-8296-044E2053E795"/>
+</associations>
+</Column>
+<Column name="Raza_nombre" id="F9831F3B-8AAB-8A24-50DA-1A72043568C3">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>92C89FFF-2436-A93D-D17B-A401D6D4C2B5</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2E5F906-A26E-68F2-4F87-82047DD1FC06" referredColumn="79999DA7-BABC-B1FD-81D5-70886AC1239E"/>
+</associations>
+</Column>
+<Column name="fecha_adopcion" id="58F511B5-3688-51D5-CBF8-A0DE2D6A4D24">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>76AFB192-7E44-5DDF-F3C6-23C884826EF0</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<dependOnForeignKeyID>6BF025FD-1BCF-2D28-B567-082CCE23BA8C</dependOnForeignKeyID>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F79028E-7616-4AF6-EA20-54F099867937" name="Mascota_PK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>06E98FE1-ECFC-8E55-217A-942FB7C41A8A</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C75F70B8-C53C-3B8C-A196-102CA440A921"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="130B7466-2C61-B066-49BE-5C61D6650393" name="Mascota_Cliente_FK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>26E3E204-AD68-AFB5-D7F9-2E7F7FB6A762</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C75F70B8-C53C-3B8C-A196-102CA440A921"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="240D56EE-65FB-0001-6B65-8190A7F91CDB" name="Mascota_Raza_FK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>95478697-1324-54FA-205E-0D80EC0C7AC5</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F88FC04F-077B-4C34-B946-ECD0D1A01A75"/>
+<colUsage columnID="F9831F3B-8AAB-8A24-50DA-1A72043568C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

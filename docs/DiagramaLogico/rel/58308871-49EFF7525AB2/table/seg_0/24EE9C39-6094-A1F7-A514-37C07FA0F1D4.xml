@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24EE9C39-6094-A1F7-A514-37C07FA0F1D4" name="Producto_Veterinario">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>3CDDF6CC-5994-FDA9-9DC5-2AF43133B0C7</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="90A14E84-1044-93AC-4745-FF50751C81A2">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>45A871AC-7A45-F9A8-4BDE-F400DF118372</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="125A9E86-DA85-FE86-8839-ACC537F2D272">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>730274E6-7DA1-12D9-F94A-08110F5F4F56</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,3,10</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dosis" id="40A60CDA-A11C-01BB-C44B-EE5C14213753">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>F4710E97-0707-0C68-471E-9B196F48DC96</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,2,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_Producto_nombre" id="7B68041D-8260-72F3-BCB3-5EF57549652A">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>F7320E3C-2A13-03DA-7E48-D45DFE9693DC</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08B3EE89-12FA-DE58-8A09-72F902D013C9" referredColumn="207A12D9-9485-F2E9-5D4A-83818F08DFBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB8BAAAB-6A1D-C069-2FB8-EC4C69199CD9" name="Producto_Veterinario_PK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>A4A69DE5-2BF2-F03C-C294-1EA54DED9C22</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90A14E84-1044-93AC-4745-FF50751C81A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6DD7B96-0584-6A03-E972-B113388BF709" name="Producto_Veterinario_Tipo_Producto_FK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>CE1F865B-4C3E-5131-93BC-5C614F916452</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B68041D-8260-72F3-BCB3-5EF57549652A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

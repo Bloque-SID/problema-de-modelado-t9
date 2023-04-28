@@ -4,7 +4,7 @@
 <createdTime>2023-04-24 03:12:19 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,9 +20,11 @@
 <createdTime>2023-04-28 12:08:07 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="0E959662-A841-AC44-4155-E78117F99F69">
@@ -30,10 +32,11 @@
 <createdTime>2023-04-24 03:12:26 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -42,8 +45,9 @@
 <createdBy>GAMER</createdBy>
 <createdTime>2023-04-24 04:28:56 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

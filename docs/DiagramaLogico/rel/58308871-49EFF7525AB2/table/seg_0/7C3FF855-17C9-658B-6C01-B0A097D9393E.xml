@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C3FF855-17C9-658B-6C01-B0A097D9393E" name="Raza">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>1C8B3A35-F2CB-A67D-5AB1-FF160C05B43F</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="79999DA7-BABC-B1FD-81D5-70886AC1239E">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>E6C3C1E8-0E84-0F1E-65D6-D6EB67EBADFA</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Especie_id_especie" id="B7C9AB06-2250-5DD3-8296-044E2053E795">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>FA92EF57-B5B7-C14C-421F-D40A5470C6ED</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80CCA002-0199-675E-9CC3-5E6E9F4FC26E" referredColumn="7C47E628-A602-392C-66F5-380187541E03"/>
+</associations>
+</Column>
+<Column name="Especie_nombre" id="DD7A5EEC-78E8-F5D8-7FA8-8011F6E3D3EA">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>C73296FF-5AB8-3076-E9C3-48A73ECB118A</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80CCA002-0199-675E-9CC3-5E6E9F4FC26E" referredColumn="D05DD12A-18CD-B818-3FF4-5D0DD1A722CE"/>
+</associations>
+</Column>
+<Column name="Raza_ID" id="89495155-FD4F-B64E-B476-C7B4D1DBA46A">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6EBE9CD-5234-000D-FC4E-3C8FE98D08A0" name="Raza_PK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="89495155-FD4F-B64E-B476-C7B4D1DBA46A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D834C439-1C5D-D584-8E9C-2965F660E9D8" name="Raza_Especie_id_especie_nombre_UN">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>4D7B6DE4-7A88-34C4-6700-23D87540D338</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C9AB06-2250-5DD3-8296-044E2053E795"/>
+<colUsage columnID="79999DA7-BABC-B1FD-81D5-70886AC1239E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF942BB5-F5D7-B27D-5AD6-2586AA2D6411" name="Raza_Especie_FK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>DCA8DB21-E382-1D1A-1A98-C4B897983D4D</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C9AB06-2250-5DD3-8296-044E2053E795"/>
+<colUsage columnID="DD7A5EEC-78E8-F5D8-7FA8-8011F6E3D3EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

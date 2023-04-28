@@ -4,7 +4,7 @@
 <createdTime>2023-04-24 03:11:08 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,10 +21,11 @@
 <createdTime>2023-04-24 03:11:13 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_especie" id="FA92EF57-B5B7-C14C-421F-D40A5470C6ED">
@@ -33,10 +34,11 @@
 <generatorID>DCA8DB21-E382-1D1A-1A98-C4B897983D4D</generatorID>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
 <referedAttribute>B51E0C62-DB0A-BE0B-E27C-9AE64E4FE78F</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre1" id="C73296FF-5AB8-3076-E9C3-48A73ECB118A">
@@ -45,11 +47,12 @@
 <generatorID>DCA8DB21-E382-1D1A-1A98-C4B897983D4D</generatorID>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
 <referedAttribute>0E959662-A841-AC44-4155-E78117F99F69</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -59,7 +62,7 @@
 <createdTime>2023-04-24 04:28:52 UTC</createdTime>
 <ownerDesignName>DiagramaLogico</ownerDesignName>
 <engineerTo>
-<item key="5BA876B0-3CD1-B74F-43DF-925B8695AD77" value="true"/>
+<item key="58308871-829D-E06F-58AD-49EFF7525AB2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

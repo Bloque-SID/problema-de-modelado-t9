@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E28AF8E6-5B6D-4FF2-5FF6-AFA968C21791" name="Atiende">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_id_empleado" id="71F529ED-F220-B612-7F38-63C91CE1462F">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76649FDC-4D74-8BB7-2B61-AE504BC06F9E" referredColumn="5FDF99D8-03E9-D734-70DA-4A0A0C19A3CE"/>
+</associations>
+</Column>
+<Column name="Mascota_id_Cliente" id="7BF7CFFF-EF64-8A96-C3C8-F2A55FD49088">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C007F885-1D96-3DBB-C8CE-5922C8CDCFDA" referredColumn="C75F70B8-C53C-3B8C-A196-102CA440A921"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA2A3D64-3C2D-A7ED-E9DD-24A34BED39EB" name="Atiende_PK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71F529ED-F220-B612-7F38-63C91CE1462F"/>
+<colUsage columnID="7BF7CFFF-EF64-8A96-C3C8-F2A55FD49088"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5464DC8-4F6F-4140-F8BB-F9AF1F849036" name="Atiende_Empleado_FK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>DEB5E406-92A1-B739-93CC-B162A008ED46</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71F529ED-F220-B612-7F38-63C91CE1462F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49B2B15A-EB49-BE67-DDCD-FC1B4E4FCF50" name="Atiende_Mascota_FK">
+<createdBy>paola</createdBy>
+<createdTime>2023-04-28 16:10:29 UTC</createdTime>
+<generatorID>DEB5E406-92A1-B739-93CC-B162A008ED46</generatorID>
+<ownerDesignName>DiagramaLogico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BF7CFFF-EF64-8A96-C3C8-F2A55FD49088"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+
+CREATE TABLE Client (
+idClient INT PRIMARY KEY,
+name VARCHAR(50),
+lastName VARCHAR(50),
+Address VARCHAR(100),
+email VARCHAR(100),
+telephone VARCHAR(20),
+registrationDate DATE
+);
+
+CREATE TABLE Pet (
+idClient INT,
+name VARCHAR(50),
+age INT, 
+breedId INT,
+weight DECIMAL(5,2),
+registrationDate DATE,
+PRIMARY KEY (idClient, name),
+FOREIGN KEY (idClient) REFERENCES Client(idClient)
+);
+
+CREATE TABLE Employee (
+idEmployee INT PRIMARY KEY,
+name VARCHAR(50),
+lastName VARCHAR(50),
+hireDate DATE,
+salary DECIMAL(10,2),
+role VARCHAR(50)
+);
+
+CREATE TABLE Appointment (
+dateAppointment DATE,
+idAppointment INT,
+idClient INT,
+petName VARCHAR(50),
+idEmployee INT,
+PRIMARY KEY (dateAppointment, idAppointment),
+FOREIGN KEY (idClient, petName) REFERENCES Pet(idClient, name),
+FOREIGN KEY (idEmployee) REFERENCES Employee(idEmployee)
+);
+
+CREATE TABLE ProductType (
+idType INT,
+type VARCHAR(50),
+PRIMARY KEY (idType, type)
+);
+
+CREATE TABLE VeterinaryProduct (
+name VARCHAR(50),
+price DECIMAL(10,2),
+dose VARCHAR(50),
+idType INT,
+type VARCHAR(50),
+PRIMARY KEY (name, idType, type),
+FOREIGN KEY (idType, type) REFERENCES ProductType(idType, type)
+);
+
+CREATE TABLE Breed (
+idBreed INT,
+name VARCHAR(50),
+PRIMARY KEY (idBreed, name)
+);
+
+CREATE TABLE Species (
+idSpecie INT,
+name VARCHAR(50),
+PRIMARY KEY (idSpecie, name)
+);
+
+CREATE TABLE Attends (
+idEmployee INT,
+idClient INT,
+petName VARCHAR(50),
+PRIMARY KEY (idEmployee, idClient, petName),
+FOREIGN KEY (idEmployee) REFERENCES Employee(idEmployee),
+FOREIGN KEY (idClient, petName) REFERENCES Pet(idClient, name)
+);
+
+CREATE TABLE Describes (
+dateAppointment DATE,
+idAppointment INT,
+name VARCHAR(50),
+idType INT,
+type VARCHAR(50),
+PRIMARY KEY (dateAppointment, idAppointment, name, idType, type),
+FOREIGN KEY (dateAppointment, idAppointment) REFERENCES Appointment(dateAppointment, idAppointment),
+FOREIGN KEY (name, idType, type) REFERENCES VeterinaryProduct(name, idType, type)
+);
